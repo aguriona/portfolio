@@ -1,7 +1,6 @@
 import React from "react";
 import { FaReact} from 'react-icons/fa';
-import { SiTailwindcss} from 'react-icons/si';
-import { FaLaravel } from 'react-icons/fa';
+import { SiCss3, SiJava, SiSpring} from 'react-icons/si';
 import { SiMysql } from 'react-icons/si';
 import imgone from '../../assets/mock1.png'
 
@@ -29,11 +28,11 @@ export default function CardWork() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex items-baseline">
               <span className="text-red inline-block scale-110">
-                <FaLaravel />
+                <SiJava />
               </span>
               <div>
               <span className="text-red px-4 inline-block scale-125">
-                <SiTailwindcss/>
+                <SiSpring/>
               </span>
               <span className="text-red px-2 inline-block scale-125">
                 <SiMysql/>
@@ -82,7 +81,7 @@ export default function CardWork() {
               </span>
               <div>
               <span className="text-red px-4 inline-block scale-125">
-                <SiTailwindcss/>
+                <SiCss3/>
               </span>
               </div>
             </div>
